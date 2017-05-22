@@ -1,17 +1,17 @@
 #!/usr/bin/env node
 
-var args = process.argv.map(function (arg) {
-  return arg.toLowerCase()
+var ARGS = process.argv.map(function (ARG) {
+  return ARG.toLowerCase()
 })
 
-args.shift()
-args.shift()
-args.unshift('npm')
+ARGS.shift()
+ARGS.shift()
+ARGS.unshift('npm')
 
 try {
-  require('child_process').execFileSync('/usr/bin/env', args, {
+  require('child_process').execFileSync('/usr/bin/env', ARGS, {
     stdio: 'inherit'
   })
-} catch (err) {
-  process.exit(err.status)
+} catch (ERR) {
+  process.exit(ERR.status)
 }
