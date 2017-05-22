@@ -1,0 +1,19 @@
+{
+  "name": "uppercase-npm",
+  "version": "1.0.0",
+  "description": "LETS YOU WRITE NPM AND HAVE IT RUN",
+  "bin": { "NPM": "./NPM" },
+  "scripts": {
+    "test": "./NPM --VERSION"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/passcod/UPPERCASE-NPM.git"
+  },
+  "author": "Félix Saparelli <felix@passcod.name> (https://passcod.name)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/passcod/UPPERCASE-NPM/issues"
+  },
+  "homepage": "https://github.com/passcod/UPPERCASE-NPM#readme"
+}
