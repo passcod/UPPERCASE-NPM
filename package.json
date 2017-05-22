@@ -1,6 +1,6 @@
 {
   "name": "uppercase-npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LETS YOU WRITE NPM AND HAVE IT RUN",
   "bin": { "NPM": "./NPM" },
   "scripts": {
